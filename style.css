@@ -1,0 +1,66 @@
+form {
+  background-color: darkslategrey;
+  padding: 10px;
+  color: #c3c3c3;
+  width: 350px;
+  font-family: arial, sans-serif;
+  font-size: 12px;
+}
+
+form input,
+form select {
+  margin-bottom: 5px;
+}
+
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form select,
+form input[type='text'],
+form input[type='tel'],
+form input[type='email'],
+form textarea {
+  width: 300px;
+  background-color: #3baa77;
+  color: white;
+  height: 25px;
+  border: none;
+}
+
+form select:focus,
+form input:focus,
+form textarea:focus {
+  background-color: #68c3a4;
+  outline: none;
+}
+
+form input[type='checkbox'] {
+  float: left;
+}
+
+
+
+form input[type='radio'] {
+  float: left;
+}
+
+form input[type='submit'] {
+  background-color: #ef4b4b;
+  color: whitesmoke;
+  height: 35px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5px 10px;
+  font-weight: 800;
+  cursor: pointer;
+  font-size: 10px;
+  /*  margin-left: 130px;*/
+}
+
+
+form textarea {
+  height: 60px;
+}
